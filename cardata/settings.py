@@ -106,7 +106,7 @@ DOWNLOADER_MIDDLEWARES = {
 #分配给每个类的整型值，确定了他们运行的顺序，item按数字从低到高的顺序，通过pipeline，通常将这些数字定义在0-1000范围内。
 ITEM_PIPELINES = {
    'cardata.pipelines.CardataPipeline': 300,
-   'cardata.pipelines.CardataToCSV': 500,
+   #'cardata.pipelines.CardataToCSV': 500,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
